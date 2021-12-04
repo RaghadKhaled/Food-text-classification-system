@@ -2,7 +2,7 @@
 ---
 
 This is a project required for a Software Engineering2 course.<br>
-It is done as teamwork by Alhanouf Almansour and Kholod Alnufie and Raghad Albosais.
+It is done as teamwork by Alhanouf Almansour and Kholod Alnufaie and Raghad Albosais.
 
 ---
 ## Table of content
@@ -77,10 +77,10 @@ The result on HTML page appears "success" and in the terminal illustrates all po
 ---
 
 ### Releases
-The first release with tag V0.1.0 is created with the same code I have run it. An additional release will be in task2.
+The first release with tag V0.0.0 is created with the same code we have run it. An additional release will be in task2.
 
 ---
 
 ### Contributors 
 
-Made with [Kholod Alnufie](https://github.com/hkh7897) and [Alhanouf Almansour](https://github.com/AlhanoufAlmans)
+Made with [Kholod Alnufaie](https://github.com/hkh7897) and [Alhanouf Almansour](https://github.com/AlhanoufAlmans)
