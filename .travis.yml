@@ -5,10 +5,7 @@ language: node_js
 node_js:
   - node 
 
-before_script:
-  - npm install
-script: npm test
- 
+
 script:
   - npm install
   - npm test
