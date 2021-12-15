@@ -118,7 +118,29 @@ this icon will show whether the state of the program is pass or fail.
 ---
 
 ### Releases
-The first release with tag v0.0.0 is created with the same code we have run it.<br> And the second release v0.1.0 with additional features in UI (see Releases descriptions for more details).
+The first release with tag v0.0.0 is created with the same code we have run it.<br> 
+
+And the second release v0.1.0 with additional features in UI.<br>
+![HTML page](UI.png)
+
+<br><br>
+
+
+I add the name of the system, logo, and clear button.<br><br>
+after clicking to cleat button, it will cleat the text entered in the text area and let the user be able to change/update the text before sending it to the server. As shown in the images below.<br>
+![HTML page](UI before clear.png)
+
+<br><br>
+![HTML page](UI after clear.png)<br><br>
+
+-After clicking to submit button, it dynamically shows the result (text with its corresponding label) of classification in a table after has been analyzed. As shown in the images below.
+
+<br><br>
+![HTML page](UI after enter first text.png)
+
+<br><br>
+![HTML page](UI after enter second text.png)<br><br>
+
 
 ---
 
