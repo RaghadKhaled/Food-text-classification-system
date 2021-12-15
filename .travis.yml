@@ -1,17 +1,7 @@
-sudo: false 
- 
+
 language: node_js
  
-node_js:
-  - node 
-
-
-script:
-  - npm install
-  - npm test
-
-
-notification:
-  email: false 
+Node_js:
+  - 7
 
 
