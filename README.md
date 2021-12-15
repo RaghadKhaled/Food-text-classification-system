@@ -1,4 +1,7 @@
 # Web-Based Machine Learning System
+
+[![Build Status](https://app.travis-ci.com/RaghadKhaled/Workshop2.svg?branch=master)](https://app.travis-ci.com/RaghadKhaled/Workshop2)
+
 ---
 
 This is a project required for a Software Engineering2 course.<br>
