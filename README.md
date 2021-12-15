@@ -115,6 +115,12 @@ to be <br>
 6-After that, copy the URL of the project state icon and paste it into the README file.<br>
 this icon will show whether the state of the program is pass or fail.
 
+<br><br><br>
+I have faced some issues during linking the repository with Travis IC.<br>
+1- To link the repository in Travis CI, it is required to enter your Credit Card information.<br>
+2- when updating package.JSON and performing the testing, I faced errors indicating that fasttext node file does not exist. but after I wrote what I mentioned in step four, it does work.
+
+
 ---
 
 ### Releases
