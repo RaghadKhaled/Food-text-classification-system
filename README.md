@@ -13,6 +13,7 @@ It is done as teamwork by Alhanouf Almansour and Kholod Alnufaie and Raghad Albo
 - Development environment requirements
 - How to install
 - How to use
+- Travis CI tool integration 
 - Releases
 - Contributors 
 ---
@@ -20,7 +21,7 @@ It is done as teamwork by Alhanouf Almansour and Kholod Alnufaie and Raghad Albo
 ### Project overview
 The purpose of the project is to gain a knowledge of currently challenges of software engineering activities and the skills to apply them.  <br>
 The project is divided into two take, the first task is to run the first version of a developed web-based machine learning system for simple text classification (form this repo in GitHub) and create a repo, put in it the code after completing the run, create the tag, and put the first release in the repo.<br>
-The second task we will integrate and run Travis CI in this repo, and update the user interface page. It will be done on 9/12/2021.
+The second task is to integrate and run Travis CI in this repo, and update the user interface page. 
 
 ---
 
@@ -46,7 +47,7 @@ mkdir [your choice name]
 ```
 npm init -y 
 ```
-4. Add index.html,index.js and train.txt in the same folder. [check the supplement materials] 
+4. Add index.html,index.js and train.txt in the same folder.
 5. Install the Node.js sandbox for the Machine learning algorithm (fasttext): 
 ```
 npm install nodefasttext --save 
@@ -79,8 +80,45 @@ The result on HTML page appears "success" and in the terminal illustrates all po
 
 ---
 
+### Travis CI tool integration 
+
+
+I have used the Travis Continues Integration tool to set up a build pipeline.
+The following steps show how to set up and run Travis CI in the project.<br><br>
+
+1-Open  [Travis CI](https://www.travis-ci.com/) and sign in with your GitHub account.<br><br>
+2-Add this repository to your account at Travis CI and enable it.<br><br>
+3-Add .travis.yml file in the repository with this code<br>
+
+```
+Language: node_js
+Node_js: 
+ -7
+```
+<br>
+4-Update package.JSON file in <br><br>
+
+```
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+}, 
+```
+to be <br>
+```
+ "scripts": {
+  "test": "echo \"No test specified\""
+}, 
+```
+<br>
+5-After steps three and four, Travis will work and perform the test operations.<br><br>
+
+6-After that, copy the URL of the project state icon and paste it into the README file.<br>
+this icon will show whether the state of the program is pass or fail.
+
+---
+
 ### Releases
-The first release with tag V0.0.0 is created with the same code we have run it. An additional release will be in task2.
+The first release with tag v0.0.0 is created with the same code we have run it.<br> And the second release v0.1.0 with additional features in UI (see Releases descriptions for more details).
 
 ---
 
